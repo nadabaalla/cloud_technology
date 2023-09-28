@@ -5,7 +5,7 @@ html{
 /* ----- NAVIGATION TABS ----- */
 .navTabs{
     background-color: orange;
-    position: fixed;
+    position: fixed; 
     top: 0%;
     left: 0%;
     right: 0%;
@@ -45,6 +45,9 @@ img{
     font-family: "Arial Black";
 }
 /* ----- CARDS ----- */
+.title{border-bottom: ridge 1px red;
+    padding-top: 2em;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -82,4 +85,11 @@ img{
     color: white;
     text-decoration: none;
     font-weight: bolder;
+}
+/*----- FOOTER -----*/
+.copyrighted{
+    background-color: rgb(247, 207, 161);
+    color: whitesmoke;
+    padding: 1em;
+    text-align: center;
 }

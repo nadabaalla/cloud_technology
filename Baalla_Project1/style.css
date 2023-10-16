@@ -5,9 +5,10 @@ html{scroll-behavior: smooth;}
     width: 88%;
     margin-left: 7em;
     margin-right: 2em;
+    border-radius: 10%;
 }
 body{
-    background: rgb(145, 206, 255);
+    background: rgb(255, 255, 255);
 }
 .section{
     position:relative;
@@ -18,16 +19,131 @@ body{
     left: 42.5%;
     top: 47%;
     font-size:x-large;
-    font-weight: bolder;
-    font-family: "Algerian";
     text-decoration: none;
-    color: green;
-    background-color: rgb(218, 218, 218);
+    color: red;
+    background-color: white;
     border-radius: 20%;
-    border: ridge green;
+    border: ridge red;
+    font-family: "comic sans ms";
 }
 .adventure:hover{
-    background-color: rgb(240, 255, 103);
-    color: red;
+    background-color: red;
+    color: white;
     transform: scale(1.05)  ;
+    font-weight: bolder;
 }
+/*-------POKEMON 1-------*/
+.navBar{
+    background-color: red;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+}
+.nav_link1{
+    color: white;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin: 0em 10.2em;
+    text-align: center;
+    font-family: "comic sans ms";
+}
+.nav_link2{
+    color: white;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin: 0em 11em;
+    text-align: center;
+    font-family: "comic sans ms";
+}
+.nav_link3{
+    color: white;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin: 0em 11em;
+    text-align: center;
+    font-family: "comic sans ms";
+}
+.nav_link1:hover{
+    background-color: green;
+    color: yellow;
+    font-weight: bolder;
+    box-shadow: 0px 0px 5px 1px rgb(58, 58, 58);
+    font-size: 1.4em;
+}
+.nav_link2:hover{
+    background-color: orange;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0px 0px 5px 1px rgb(58, 58, 58);
+    font-size: 1.4em;
+}
+.nav_link3:hover{
+    background-color: rgb(23, 180, 180);
+    color: white;
+    font-weight: bolder;
+    box-shadow: 0px 0px 5px 1px rgb(58, 58, 58);
+    font-size: 1.37em;
+}
+/*-------SNIVY-------*/
+.snivygif{
+    width: 20%;
+    top: 35%;
+    left: 40%;
+    position: absolute;
+}
+.snivybackground{
+    width: 100%;
+}
+.divider{
+    height: 4em;
+}
+/*-------TEPIG-------*/
+.tepiggif{
+    width: 20%;
+    top: 35%;
+    left: 40%;
+    position: absolute;
+}
+.tepigbackground{
+    width: 100%;
+}
+.divider{
+    height: 4em;
+}
+/*-------OSHAWOTT-------*/
+.oshawottgif{
+    width: 20%;
+    top: 35%;
+    left: 40%;
+    position: absolute;
+}
+.oshawottbackground{
+    width: 100%;
+}
+.divider{
+    height: 4em;
+}
+/*-------AUDIO-------*/
+div#lH{
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    top: 5%;
+    color: red;
+}
+audio#aH{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    z-index: 2;
+    opacity: 0.01;
+}
+

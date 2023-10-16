@@ -1,0 +1,177 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+
+body{
+    background-color: rgb(198, 248, 255);
+}
+/*-------SNIVY HTML-------*/
+.navBar2{
+    background-color: rgb(46, 141, 141);
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+}
+.nav_link{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin: 0em 10em;
+    text-align: center;
+    font-family: "comic sans ms";
+}
+.nav_link:hover{
+    background-color: rgb(241, 241, 241);
+    color: rgb(46, 141, 141);
+    font-weight: bolder;
+    box-shadow: 0px 0px 5px 1px rgb(58, 58, 58);
+    font-size: 1.4em;
+}
+.intro{
+    margin: 7em auto;
+    border-radius: 3em;
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+    right: -15em;
+}
+img{
+    width: 50%;
+    display: block;
+}
+.intro_pg{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    right: 15%;
+    text-align: center;
+    font-size: 1.6em;
+    color: rgb(127, 150, 255);
+    font-weight: 900;
+    font-family: "comic sans ms";
+    margin-right: 45%;
+    background-color: rgb(216, 252, 253);
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    border: ridge rgb(175, 255, 255) 0.5em;
+}
+.container{
+    width: 100%;
+    margin-left: 25%;
+}
+.oshawottinfo{
+    border: ridge red 0.5em;
+}
+.name{
+    font-family: "comic sans ms";
+    position: absolute;
+    left: 49%;
+    bottom: -2%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.number{
+    font-family: "comic sans ms";
+    position: absolute;
+    left: 68%;
+    bottom: -1%;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.water{
+    font-family: "comic sans ms";
+    position: absolute;
+    left: 53%;
+    bottom: -8%;
+    font-size: xx-large;
+}
+.type{
+    width: 2%;
+    position: absolute;
+    left: 50%;
+    top: 100.5%;
+}
+.sprite{
+    width: 9%;
+    position: absolute;
+    left: 44.5%;
+    top: 109%;
+}
+.watertype{
+    font-family: "comic sans ms";
+    position: absolute;
+    left: 55.8%;
+    bottom: -15.7%;
+    font-size: x-large;
+}
+.height{
+    font-family: "comic sans ms";
+    position: absolute;
+    left: 61%;
+    bottom: -25%;
+    font-size: x-large;
+    font-weight: bold;
+}
+.weight{
+    font-family: "comic sans ms";
+    position: absolute;
+    left: 61%;
+    bottom: -31%;
+    font-size: x-large;
+    font-weight: bold;
+}
+.information{
+    font-family: "comic sans ms";
+    position: absolute;
+    bottom: -53%;
+    right: 30%;
+    left: 30%;
+    font-size: x-large;
+    text-align: center;
+}
+/*-------CARDS-------*/
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 29%;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin: 2%;
+    position: relative;
+    background-color: rgb(184, 223, 228);
+}
+.cardTitle{
+    padding: 0.5em 1em;
+    color: rgb(33, 111, 228);
+    font-family: "comic sans ms";
+}
+.cardIntro{
+    padding: 0.5em 1em;
+    color: rgb(100, 100, 100);
+    margin-bottom: 5em;
+    top: 30%;
+    font-family: "comic sans ms";
+}
+.cardLink{
+    position: absolute;
+    bottom: 0%;
+    background-color: rgb(0, 122, 122);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-family: "comic sans ms";
+}
+.cardLink:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 122, 122);
+    text-decoration: none;
+    font-weight: bolder;
+}

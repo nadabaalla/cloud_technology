@@ -72,7 +72,7 @@ img{
     font-family: "comic sans ms";
     position: absolute;
     left: 49%;
-    bottom: -2%;
+    bottom: 0.5%;
     font-size: xx-large;
     font-weight: bolder;
 }
@@ -87,7 +87,7 @@ img{
     font-family: "comic sans ms";
     position: absolute;
     left: 68%;
-    bottom: -1%;
+    bottom: 2%;
     font-size: x-large;
     font-weight: bolder;
 }
@@ -96,40 +96,38 @@ img{
     color: white;
     text-shadow: 1px 1px 5px black;
     transition: ease-in-out 2s;
-    font-size: 200%;
-    bottom: -2%;
 }
 .grass{
     font-family: "comic sans ms";
     position: absolute;
     left: 51%;
-    bottom: -8%;
+    bottom: -5%;
     font-size: xx-large;
 }
 .type{
     width: 2%;
     position: absolute;
     left: 48.5%;
-    top: 100.5%;
+    top: 97.5%;
 }
 .sprite{
     width: 4%;
     position: absolute;
     left: 47%;
-    top: 112%;
+    top: 108%;
 }
 .grasstype{
     font-family: "comic sans ms";
     position: absolute;
     left: 56%;
-    bottom: -16%;
+    bottom: -13%;
     font-size: x-large;
 }
 .height{
     font-family: "comic sans ms";
     position: absolute;
     left: 61%;
-    bottom: -25%;
+    bottom: -22%;
     font-size: x-large;
     font-weight: bold;
 }
@@ -137,14 +135,14 @@ img{
     font-family: "comic sans ms";
     position: absolute;
     left: 61%;
-    bottom: -31%;
+    bottom: -28%;
     font-size: x-large;
     font-weight: bold;
 }
 .information{
     font-family: "comic sans ms";
     position: absolute;
-    bottom: -53%;
+    bottom: -49.5%;
     right: 30%;
     left: 30%;
     font-size: x-large;

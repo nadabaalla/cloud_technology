@@ -72,7 +72,7 @@ img{
     font-family: "comic sans ms";
     position: absolute;
     left: 49%;
-    bottom: -2%;
+    bottom: 1%;
     font-size: xx-large;
     font-weight: bolder;
 }
@@ -81,13 +81,12 @@ img{
     color: white;
     text-shadow: 1px 1px 5px black;
     transition: ease-in-out 2s;
-    font-size: 200%;
 }
 .number{
     font-family: "comic sans ms";
     position: absolute;
     left: 68%;
-    bottom: -1%;
+    bottom: 2%;
     font-size: x-large;
     font-weight: bolder;
 }
@@ -96,40 +95,38 @@ img{
     color: white;
     text-shadow: 1px 1px 5px black;
     transition: ease-in-out 2s;
-    font-size: 200%;
-    bottom: -2%;
 }
 .water{
     font-family: "comic sans ms";
     position: absolute;
     left: 53%;
-    bottom: -8%;
+    bottom: -5%;
     font-size: xx-large;
 }
 .type{
-    width: 2%;
+    width: 3%;
     position: absolute;
     left: 50%;
-    top: 100.5%;
+    top: 96.7%;
 }
 .sprite{
     width: 9%;
     position: absolute;
     left: 44.5%;
-    top: 109%;
+    top: 106%;
 }
 .watertype{
     font-family: "comic sans ms";
     position: absolute;
     left: 55.8%;
-    bottom: -15.7%;
+    bottom: -13%;
     font-size: x-large;
 }
 .height{
     font-family: "comic sans ms";
     position: absolute;
     left: 61%;
-    bottom: -25%;
+    bottom: -22%;
     font-size: x-large;
     font-weight: bold;
 }
@@ -137,14 +134,14 @@ img{
     font-family: "comic sans ms";
     position: absolute;
     left: 61%;
-    bottom: -31%;
+    bottom: -28%;
     font-size: x-large;
     font-weight: bold;
 }
 .information{
     font-family: "comic sans ms";
     position: absolute;
-    bottom: -53%;
+    bottom: -49%;
     right: 30%;
     left: 30%;
     font-size: x-large;

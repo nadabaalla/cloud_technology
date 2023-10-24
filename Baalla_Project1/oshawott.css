@@ -1,6 +1,10 @@
 *{box-sizing: border-box;}
 html{scroll-behavior: smooth;}
-
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1855px;
+}
 body{
     background-color: rgb(198, 248, 255);
 }
@@ -18,7 +22,7 @@ body{
     padding: 1em 2em;
     font-size: 1.3em;
     text-decoration: none;
-    margin: 0em 10em;
+    margin: 0em 7em;
     text-align: center;
     font-family: "comic sans ms";
 }
@@ -62,6 +66,7 @@ img{
 }
 .oshawottinfo{
     border: ridge red 0.5em;
+    filter: sepia(40%)
 }
 .name{
     font-family: "comic sans ms";
@@ -71,6 +76,13 @@ img{
     font-size: xx-large;
     font-weight: bolder;
 }
+.name:hover{
+    font-family: "algerian";
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    transition: ease-in-out 2s;
+    font-size: 200%;
+}
 .number{
     font-family: "comic sans ms";
     position: absolute;
@@ -78,6 +90,14 @@ img{
     bottom: -1%;
     font-size: x-large;
     font-weight: bolder;
+}
+.number:hover{
+    font-family: "algerian";
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    transition: ease-in-out 2s;
+    font-size: 200%;
+    bottom: -2%;
 }
 .water{
     font-family: "comic sans ms";
@@ -174,4 +194,14 @@ img{
     color: rgb(0, 122, 122);
     text-decoration: none;
     font-weight: bolder;
+}
+.pokeball1:hover{
+    content: url(images/oshawottimg.png);
+}
+.nav_link:hover{
+    font-family: "algerian";
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    transition: ease-in-out 2s;
+    font-size: 140%;
 }

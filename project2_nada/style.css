@@ -1,0 +1,36 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+.nav_link1{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.nav_link1:hover{
+    color: rgb(240, 162, 61);
+    background-color: rgb(219, 78, 13);
+    font-weight: 900;
+}
+.nav_link2{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.nav_link2:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 18, 83);
+    font-weight: 900;
+}
+.navwords:hover{
+    color: rgb(0, 0, 88);
+    background-color: rgb(52, 58, 64);
+}

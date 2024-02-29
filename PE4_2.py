@@ -52,10 +52,13 @@ print(n)
 #p
 newlist=list(n)
 print("newlist :", newlist)
+#q
 n.clear()
 print("newlist :", newlist)
-#q
+#r
 print(n)
+print("newlist :", newlist)
+#s
 del n[:]
 
 
